@@ -35,10 +35,7 @@ var lensMatCols = jQuery('.lensmaterial-col'),
 	cart_n_lreflaction = jQuery('.cart-lensreflection-name'),
 
 	darkie = jQuery('.dark-wrapper'),
-	infos = jQuery('.compare');
-
-	imgReflection = new Image();
-	imgReflection.src = 'img/compared/reflection.jpg',
+	infos = jQuery('.compare'),
 
 	descriptionBlock = jQuery('.description-block');
 
@@ -81,7 +78,9 @@ jQuery('.terms-agree').on('click', function(e){
 });
 
 infos.on('click', function(e){
-	darkie.css('display', 'block').css('top', jQuery(window).scrollTop() + 'px' );
+	var ii = jQuery(this).data('infoindex');
+	jQuery('.imagination > img').css('display','none').eq(ii).css('display', 'block');
+	darkie.css('display', 'block').css('height', jQuery(document).height() + 'px');
 });
 
 darkie.on('click', function(e){

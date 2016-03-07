@@ -2,6 +2,12 @@ angular.module('draft', [])
 
 .controller('draftCtrl', function($scope) {
 
+$scope.prescriptionInfoSrc = 'img/compared/prescription.jpg';
+$scope.typeInfoSrc = 'img/compared/type.jpg';
+$scope.materialInfoSrc = 'img/compared/material.jpg';
+$scope.reflectionInfoSrc = 'img/compared/reflection.jpg';
+$scope.transitionInfoSrc = 'img/compared/transition.jpg';	
+
 $scope.typeTitle = 'Lens Type';
 $scope.typeDescription = 'Choose the lens type';
 $scope.lensTypes = [

@@ -27,7 +27,7 @@
 
 			<!-- lens type block -->
 			<div class="lenstype-block">
-				<info class="compare-wrap"><div class="compare"><i class="fa fa-question"></i></div></info>
+				<info class="compare-wrap"><div data-infoindex="1" class="compare"><i class="fa fa-question"></i></div></info>
 
 				<div class="lens-section-title">
 					<h4>{{ typeTitle }}</h4>
@@ -48,7 +48,7 @@
 
 			<!-- lens material block -->
 			<div class="lensmaterial-block">
-				<info class="compare-wrap"><div class="compare"><i class="fa fa-question"></i></div></info>
+				<info class="compare-wrap"><div data-infoindex="2" class="compare"><i class="fa fa-question"></i></div></info>
 	
 				<div class="lens-section-title">
 					<h4>{{ materialTitle }}</h4>
@@ -72,7 +72,7 @@
 
 				<!-- reflaction block -->
 				<div class="antireflaction-block">
-					<info class="compare-wrap"><div class="compare"><i class="fa fa-question"></i></div></info>
+					<info class="compare-wrap"><div data-infoindex="3" class="compare"><i class="fa fa-question"></i></div></info>
 	
 					<div class="lens-section-title">
 						<h4>{{ reflectionTitle }}</h4>
@@ -96,7 +96,7 @@
 
 				<!-- transition block -->
 				<div class="transition-block">
-					<info class="compare-wrap"><div class="compare"><i class="fa fa-question"></i></div></info>
+					<info class="compare-wrap"><div data-infoindex="4" class="compare"><i class="fa fa-question"></i></div></info>
 					<div class="lens-section-title">
 						<h4>{{ transitionTitle }}</h4>
 						{{ transitionDescription }}
@@ -133,7 +133,11 @@
 		<div class="dark-wrapper">
 			<div class="dark"></div>
 			<div class="imagination">
-				<img src="img/compared/reflection.jpg">
+				<img ng-src="{{ prescriptionInfoSrc }}">
+				<img ng-src="{{ typeInfoSrc }}">
+				<img ng-src="{{ materialInfoSrc }}">
+				<img ng-src="{{ reflectionInfoSrc }}">
+				<img ng-src="{{ transitionInfoSrc }}">
 			</div>
 		</div>
 

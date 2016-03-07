@@ -1,5 +1,5 @@
 
-		<info class="compare-wrap"><div class="compare"><i class="fa fa-question"></i></div></info>
+		<info class="compare-wrap"><div data-infoindex="0" class="compare"><i class="fa fa-question"></i></div></info>
 		<div class="prescription-table">
 			<div class="prescription-row">
 				<div class="prescription-header">
