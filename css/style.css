@@ -1,0 +1,138 @@
+.main {position: relative; width: 100%; height: auto; }
+
+.optica, .frames { overflow: hidden; height: auto; position: relative; float: left; }
+
+.frame-wrap {width: 100%; }
+.frame-wrap > img { display: block; width: 100%; border: 1px solid #fff; }
+.frame-wrap > img:hover {border: 1px solid #737373;}
+
+
+/* ---------  prescription block  ------------- */
+.prescription-block {  }
+
+.lens-button { clear:both; display: block; width: 5%; margin: .5em auto; text-align: center; border-radius: 3px; padding: .3em 1em; border: 1px solid #a9a9a9; } 
+.lens-button:hover { border: 1px solid #393939; background-color: #303030; color: #e0e0e0; cursor: pointer;} 
+
+.prescription-table { width: 100%; height: auto;  }
+.prescription-row { width: 100%; clear:both; display: inline-block;  }
+.prescription-cell { padding: 2px;position: relative; width:16%; height: 2.2em;float: left; text-align: center; }
+.prescription-cell .lbl { width: 20%;}
+.prescription-cell > span { color: #909090;}
+.prescription-header { font-size: 1.6em; color: #303030; text-align: center; }
+.prescription-p { font-size: .9em; color: #787878; text-align: center; margin-bottom: 1em;}
+
+.prescription-cell .lbl .empty { min-width: 100%;  }
+.prescription-input { display: block; width: 100%; height: 100%; text-align: center; background-color: #f0f0f0; border: none;}
+
+.prescription-terms{ margin-top: 1em;}
+.terms-conditions{ padding: .3em; border: 1px solid #e0e0e0;}
+.terms-text {width: 100%;  height: 120px; overflow: scroll; overflow-x: hidden;}
+.terms-text > h4 { text-align: center; font-size: 1em; font-style: bold; font-weight: 800;}
+.terms-text > p { margin:.2em; font-size: .8em;}
+.terms-agree { min-width: 70px; } 
+
+
+/* ---------  lens type block  ------------- */
+.lenstype-block{ display: inline-block; position: relative; width: 100%; height: auto; border: 1px solid #eee; }
+.lenstype-col{ position: relative; width: 100%; height: 100%; float: left; border: 1px solid #fff; vertical-align: center; text-align: center; padding: .2em; opacity: .6; }
+.lenstype-col > div { margin-top: 1em; margin-bottom:1em; display: block; width: 50%; float: left; }
+.lenstype-col > div > span { display: block; width: 100%; clear: both; color: #00f; font-size: .9em;}
+.lenstype-col > div > span:before {content: "$";} 
+.lenstype-col > img { display: inline-block; height: 5em; }
+
+
+/* ---------  lens material block  ------------- */
+.lensmaterial-block{ display: inline-block; position: relative; width: 100%; height: auto; border: 1px solid #eee;}
+.lensmaterial-col{ position: relative; width: 100%; height: 100%; float: left; border: 1px solid #fff; vertical-align: center; text-align: center; padding: .2em; opacity: .6; }
+.lensmaterial-col > div { margin-top: 1em; margin-bottom:1em;display: block; width: 50%; float: left;}
+.lensmaterial-col > div > span { display: block; width: 100%; clear: both; color: #00f; font-size: .9em;}
+.lensmaterial-col > div > span:before {content: "$";} 
+.lensmaterial-col > img { display: inline-block; height: 5em; margin: auto; }
+.lens-section-title { text-align: center; padding: 1.2em 0 .3em; color: #787878; font-size: .9em; }
+.lens-section-title > h4 { margin-bottom: .1em; color: #303030; }
+
+
+/* ---------  lens addons block  ------------- */
+.lensaddons-block{position: relative; width: 100%; height: auto; display:inline-block; }
+
+/* ---------  anti reflection  ------------- */
+.antireflaction-block{ display: inline-block; position: relative; width: 100%; height: auto; border: 1px solid #eee; }
+.lensreflaction-logo{ position: relative; width: 25%; height: 100%; float: left; padding: .2em; opacity: 1; }
+.lensreflaction-logo > img { display: block; width: 100%; }
+.lensreflaction-col{ position: relative; width: 25%; height: auto; float: left; border: 1px solid #fff; vertical-align: center; text-align: center; padding: .2em; opacity: .6; }
+.lensreflaction-col > div { margin: 25% 10%; display: block; width: 80%;   float: left; }
+.lensreflaction-col > div > span { display: block; width: 100%; clear: both; color: #00f; font-size: .9em;}
+.lensreflaction-col > div > span:before {content: "$";} 
+
+/* ---------  transition  ------------- */
+.transition-block{ display: inline-block; position: relative; width: 100%; height: auto; border: 1px solid #eee; }
+.lenstransition-col{ position: relative; width: 20%; height: auto; float: left; border: 1px solid #fff; vertical-align: center; text-align: center; padding: .2em; opacity: .6; }
+.lenstransition-logo{ position: relative; width: 20%; height: 100%; float: left; padding: .2em; opacity: 1; }
+.lenstransition-logo > img { display: block; width: 100%; }
+.lenstransition-col > div { margin: 25% 10%; display: block; width: 80%;  float: left; }
+.lenstransition-col > div > span { display: block; width: 100%; clear: both; color: #00f; font-size: .9em;}
+.lenstransition-col > div > span:before {content: "$";} 
+
+
+/* ---------  add to cart  ------------- */
+.addtocart-block { width: 100%; padding: .5em; border: 1px solid #eee; border-top: none; margin-bottom: 20px;}
+.btn-to-cart { min-width: 120px; }
+
+
+/* ---------  cart block  ------------- */
+.cart-wrap{ width: 100%; overflow: hidden; height: auto; display: inline-block; }
+.cart{ width: 10%; min-width: 270px; padding: 1em; border: 1px solid #eee; float: none; display: block; margin: 1em auto; }
+.cart-icon > i { display: block; font-size: 3em; text-align: center; margin-bottom: .3em;}
+
+.cart-row { clear: both; }
+.cart-row-title,
+.cart-lensreflection-name,
+.cart-lenstransition-name { color: #707070; font-style: italic; }
+.cart-row-price:before { content: ": $"; }
+
+.cart-frame-name:before { content: "Frame - "; font-weight:600; color: #303030;}
+.cart-lenstype-name:before { content: "Lens Type - "; font-weight:600;color: #303030;}
+.cart-lensmaterial-name:before { content: "Lens Thickness - "; font-weight:600;color: #303030;}
+.cart-lensreflection-name:before { content: "Anti-Reflective "; font-weight:600;color: #303030;}
+.cart-lenstransition-name:before { content: "Transition "; font-weight:600;color: #303030;}
+.cart b { color: #303030; }
+
+
+
+.compare-wrap{ position: absolute; right:3px; top:3px;}
+.compare { position: relative; display:inline-block; width: 30px; height: 30px; border-radius: 50%; background-color: #333; text-align: center; }
+.compare > i{ font-size: 16px; margin-top: 8px; display: block; width: 100%; color: #eee;}
+.compare:hover { cursor:pointer; }
+
+.dark-wrapper { display:none; position:absolute; left:0;top:0; width:100vw; height: 100vh; }
+.dark { position: relative; width: 100%; height: 100%; background-color: #aaa; opacity: .6; }
+.imagination { position: absolute; left: 25%; top: 25%; width: 50%; height: 50%; /*background-color: #131;*/ }
+.imagination > img { }
+
+
+
+/* ---------  etc  -------------*/
+.lenstype-col:hover,
+.lensmaterial-col:hover,
+.lensreflaction-col:hover,
+.lenstransition-col:hover { opacity: 1; cursor: pointer; }
+
+.description-block { display:none; position: absolute; z-index: 999; opacity: .8;}
+.description { position: relative; padding: 1em; display: block; background-color: #838383; border-radius: 3px; color: #f3f3f3; }
+.description-block:hover { display: block !important; }
+
+.recommended { position: absolute; right:0; top:0; }
+.recommended-on {
+    background-image: url('../img/recommended.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+.why-text{ display: none; }
+
+.lens-marked { background-color: #a3ea9d; opacity: 1 !important;}
+
+.frame-selected > img { border: 1px solid #0f0; }
+
+.no-max-height { max-height: none !important; }
