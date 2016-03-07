@@ -143,11 +143,8 @@
 	</div>
 
 <!-- scripts -->
-
 <script src="js/angular.min.js"></script>
 <script src="js/app.js"></script>
-<script src="js/vars.js"></script>
 <script src="js/events.js"></script>
-
 </body>
 </html>
