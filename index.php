@@ -19,14 +19,14 @@
 		</div>
 
 		<!-- optix block -->
-		<div class="optica">
+		<div class="optica hid">
 
 			<div class="prescription-block">
 				<?php include("html/prescription.php"); ?>
 			</div>
 
 			<!-- lens type block -->
-			<div class="lenstype-block">
+			<div class="lenstype-block hid">
 				<info class="compare-wrap"><div data-infoindex="1" class="compare"><i class="fa fa-question"></i></div></info>
 
 				<div class="lens-section-title">
@@ -34,7 +34,7 @@
 					{{ typeDescription }}
 				</div>
 
-				<div ng-repeat="lensType in lensTypes" class="lenstype-col">
+				<div ng-repeat="lensType in lensTypes" data-currtypeindex="{{ $index }}" class="lenstype-col">
 					<recom class="recommended">
 						<span class="why-text">{{ lensType.why }}</span>
 					</recom>
@@ -47,7 +47,7 @@
 			</div>
 
 			<!-- lens material block -->
-			<div class="lensmaterial-block">
+			<div class="lensmaterial-block hid">
 				<info class="compare-wrap"><div data-infoindex="2" class="compare"><i class="fa fa-question"></i></div></info>
 	
 				<div class="lens-section-title">
@@ -68,7 +68,7 @@
 			</div>
 
 			<!-- lens addons block -->
-			<div class="lensaddons-block">
+			<div class="lensaddons-block hid">
 
 				<!-- reflaction block -->
 				<div class="antireflaction-block">
@@ -95,7 +95,7 @@
 				</div>
 
 				<!-- transition block -->
-				<div class="transition-block">
+				<div class="transition-block hid">
 					<info class="compare-wrap"><div data-infoindex="4" class="compare"><i class="fa fa-question"></i></div></info>
 					<div class="lens-section-title">
 						<h4>{{ transitionTitle }}</h4>
@@ -126,7 +126,7 @@
 		</div>
 
 		<!-- cart block -->
-		<div class="cart-wrap">
+		<div class="cart-wrap hid">
 			<?php include("html/cart.php"); ?>
 		</div>
 

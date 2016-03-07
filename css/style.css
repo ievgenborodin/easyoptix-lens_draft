@@ -1,6 +1,6 @@
 .main {position: relative; width: 100%; height: auto; }
 
-.optica, .frames { overflow: hidden; height: auto; position: relative; float: left; }
+.optica, .frames { overflow: hidden; height: auto; max-height: none; position: relative; float: left; }
 
 .frame-wrap {width: 100%; }
 .frame-wrap > img { display: block; width: 100%; border: 1px solid #fff; }
@@ -11,7 +11,8 @@
 .prescription-block {  }
 
 .lens-button { clear:both; display: block; width: 5%; margin: .5em auto; text-align: center; border-radius: 3px; padding: .3em 1em; border: 1px solid #a9a9a9; } 
-.lens-button:hover { border: 1px solid #393939; background-color: #303030; color: #e0e0e0; cursor: pointer;} 
+.lens-button:hover,
+.lens-button-on { border: 1px solid #393939; background-color: #303030; color: #e0e0e0; cursor: pointer;} 
 
 .prescription-table { width: 100%; height: auto;  }
 .prescription-row { width: 100%; clear:both; display: inline-block;  }
@@ -33,7 +34,7 @@
 
 
 /* ---------  lens type block  ------------- */
-.lenstype-block{ display: inline-block; position: relative; width: 100%; height: auto; border: 1px solid #eee; }
+.lenstype-block{ display: inline-block; position: relative; width: 100%; height: auto; opacity: 1; max-height: 500px; transition: max-height .3s; border: 1px solid #eee; }
 .lenstype-col{ position: relative; width: 100%; height: 100%; float: left; border: 1px solid #fff; vertical-align: center; text-align: center; padding: .2em; opacity: .6; }
 .lenstype-col > div { margin-top: 1em; margin-bottom:1em; display: block; width: 50%; float: left; }
 .lenstype-col > div > span { display: block; width: 100%; clear: both; color: #00f; font-size: .9em;}
@@ -135,4 +136,4 @@
 
 .frame-selected > img { border: 1px solid #0f0; }
 
-.no-max-height { max-height: none !important; }
+.hid { max-height: 0; /*width:0;*/ opacity: 0; transition: max-height .3s;}

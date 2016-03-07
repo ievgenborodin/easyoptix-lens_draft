@@ -10,8 +10,8 @@
 
 @media only screen and (max-width: 767px) {
 	.frames { width: 100%; }
-	.optica { width: 100%; max-height: 0px; }
-	.cart-wrap { max-height: 0px; }
+	.optica { width: 100%; }
+	.cart-wrap { }
 	.has-selected-frame > .frame-wrap { display:none; }
 	.has-selected-frame > .frame-selected { width: 100%; display: block; }
 }
@@ -19,15 +19,15 @@
 @media only screen and (min-width: 768px) {
 	.main {padding: 1em; } 
 	.frames { width: 42%; padding-right: 2em;  }
-	.optica { width: 42%; padding: 1em; max-height: none;  }
-	.cart-wrap { max-height: none; float: left; width: 16%; }
+	.optica { width: 42%; padding: 1em; }
+	.cart-wrap { float: left; width: 16%; }
 }
 
 @media only screen and (min-width: 992px) {
 	.main {padding: 1em; } 
 	.frames { width: 32%; padding-right: 1em;  }
-	.optica { width: 47%; padding: 1em; max-height: none;  }
-	.cart-wrap { width: 21%; max-height: none; float: left;  padding: 0;}
+	.optica { width: 47%; padding: 1em;  }
+	.cart-wrap { width: 21%; float: left;  padding: 0;}
 	.cart { font-size: .9em; min-width: 212px; }
 	.cart ul { padding-left: 20px; }
 }
@@ -48,5 +48,4 @@
 	.lenstype-col > img { width: 50%; max-width: 110px; height: auto; }
 
 	.frame-wrap { width: 50%; float: left;}
-/*	.frame-wrap { width: 33.3333333%; float: left;}*/
 }
