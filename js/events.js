@@ -81,7 +81,7 @@ jQuery('.terms-agree').on('click', function(e){
 });
 
 infos.on('click', function(e){
-	darkie.css('display', 'block');
+	darkie.css('display', 'block').css('top', jQuery(window).scrollTop() + 'px' );
 });
 
 darkie.on('click', function(e){
