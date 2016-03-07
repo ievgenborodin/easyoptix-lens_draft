@@ -105,7 +105,7 @@
 						<img class="lens-img" ng-src="{{ transitionLogo }}">
 					</div>
 
-					<div ng-repeat="transition in lensTransitions" class="lenstransition-col>
+					<div ng-repeat="transition in lensTransitions" class="lenstransition-col">
 						<recom class="recommended">
 							<span class="why-text">{{ transition.why }}</span>
 						</recom>

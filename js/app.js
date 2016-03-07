@@ -72,7 +72,6 @@ $scope.lensTransitions = [
 	{
 		title: 'Grey',
 		price: '69.00',
-		src: 'Polycarbonate.png',
 		why: "Has something to do with index 1"
 	},
 	{
@@ -99,7 +98,6 @@ $scope.lensReflections = [
 	{
 		title: 'Generic',
 		price: '39.00',
-		src: 'Polycarbonate.png',
 		why: "Has something to do with index 1"
 	},
 	{
