@@ -109,7 +109,7 @@ lensTypeCols.on('click', function(e){
 	var that = jQuery(this);
 	lensTypeCols.removeClass('lens-marked');
 	that.addClass('lens-marked');
-	p_ltype = +(that.find('span').html());
+	p_ltype = +(that.find('.span-price').html());
 	n_ltype = that.find('name').html();
 });
 
@@ -117,7 +117,7 @@ lensMatCols.on('click', function(e){
 	var that = jQuery(this);
 	lensMatCols.removeClass('lens-marked');
 	that.addClass('lens-marked');
-	p_lmaterial = +(that.find('span').html());
+	p_lmaterial = +(that.find('.span-price').html());
 	n_lmaterial = that.find('name').html();
 });
 
@@ -125,7 +125,7 @@ lensTransitionCols.on('click', function(e){
 	var that = jQuery(this);
 	lensTransitionCols.removeClass('lens-marked');
 	that.addClass('lens-marked');
-	p_ltransition = +(that.find('span').html());
+	p_ltransition = +(that.find('.span-price').html());
 	n_ltransition = that.find('name').html();
 });
 
@@ -133,7 +133,7 @@ lensAntiReflectionCols.on('click', function(e){
 	var that = jQuery(this);
 	lensAntiReflectionCols.removeClass('lens-marked');
 	that.addClass('lens-marked');
-	p_lreflaction = +(that.find('span').html());
+	p_lreflaction = +(that.find('.span-price').html());
 	n_lreflaction = that.find('name').html();
 });
 

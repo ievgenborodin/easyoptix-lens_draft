@@ -40,7 +40,7 @@
 					</recom>
 					<div class="lenstype-title">
 						<name>{{ lensType.title }}</name>
-						<span>{{ lensType.price }}</span>
+						<span class="span-price">{{ lensType.price }}</span>
 					</div>
 					<img class="lens-img" ng-src="img/type/{{ lensType.src }}">
 				</div>
@@ -61,7 +61,7 @@
 					</recom>
 					<div class="lensmaterial-title">
 						<name>{{ lensMat.title }}</name>
-						<span>{{ lensMat.price }}</span>
+						<span class="span-price">{{ lensMat.price }}</span>
 					</div>
 					<img class="lens-img" ng-src="img/material/{{ lensMat.src }}">
 				</div>
@@ -89,7 +89,7 @@
 						</recom>
 						<div class="lensreflaction-title">
 							<name>{{ reflection.title }}</name>
-							<span>{{ reflection.price }}</span>
+							<span class="span-price">{{ reflection.price }}</span>
 						</div>
 					</div>	
 				</div>
@@ -111,7 +111,7 @@
 						</recom>
 						<div class="lenstransition-title">
 							<name>{{ transition.title }}</name>
-							<span>{{ transition.price }}</span>
+							<span class="span-price">{{ transition.price }}</span>
 						</div>
 					</div>
 				</div>
