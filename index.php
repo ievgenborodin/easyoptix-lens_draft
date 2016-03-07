@@ -83,7 +83,7 @@
 						<img class="lens-img" ng-src="{{ reflectionLogo }}">
 					</div>
 
-					<div ng-repeat="reflection in lensReflections" class="lensreflaction-col lens-marked">
+					<div ng-repeat="reflection in lensReflections" class="lensreflaction-col">
 						<recom class="recommended">
 							<span class="why-text">{{ reflection.why }}</span>
 						</recom>
@@ -105,7 +105,7 @@
 						<img class="lens-img" ng-src="{{ transitionLogo }}">
 					</div>
 
-					<div ng-repeat="transition in lensTransitions" class="lenstransition-col lens-marked">
+					<div ng-repeat="transition in lensTransitions" class="lenstransition-col>
 						<recom class="recommended">
 							<span class="why-text">{{ transition.why }}</span>
 						</recom>
