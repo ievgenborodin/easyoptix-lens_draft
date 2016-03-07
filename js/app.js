@@ -1,4 +1,4 @@
-angular.module('draft', []).
+angular.module('draft', [])
 
 .controller('draftCtrl', function($scope) {
 
